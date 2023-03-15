@@ -12,3 +12,6 @@
 .blogItemh3{
     cursor: pointer;
 }
+.blogitempara{
+  max-width: 45rem;
+}
