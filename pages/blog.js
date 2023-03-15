@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Blog = (props) => {
   const [blogs, setBlogs] = useState(props.allBlogs);
-  console.log(props);
+
   // This function will fetch in client side
   // useEffect(() => {
   //   fetch("http://localhost:3000/api/blogs")
